@@ -1,2 +1,2 @@
-# Alum
-Sistema de BI para gerar informações sobre o perfil dos alunos utilizando dados do exportados  sistema acadêmico Q-Acadêmico utilizado no IFES Campus Serra
+# Evasao
+[![Build Status](https://travis-ci.org/raoneDS/Evasao.svg?branch=Desenvolvimento)](https://travis-ci.org/raoneDS/Evasao)

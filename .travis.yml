@@ -1,0 +1,27 @@
+language: php
+
+php:
+  - '5.4'
+  - '5.5'
+  - '5.6'
+
+jdk:
+  - oraclejdk8
+  
+addons:
+  apt:
+    packages:
+      - oracle-java8-installer
+  sonarqube: true
+  
+before_script:
+  - export JAVA_HOME=/usr/lib/jvm/java-8-oracle
+  
+script: 
+  - phpunit app/testes/Test.php
+  - sonar-scanner
+
+
+notifications:
+  slack: evasao:LbVZOEbgooG84HhpV7HQEahl
+  email: false
