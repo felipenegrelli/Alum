@@ -18,7 +18,7 @@ before_script:
   - export JAVA_HOME=/usr/lib/jvm/java-8-oracle
   
 script: 
-  - phpunit app/testes/Test.php
+  - phpunit testes/Test.php
   - sonar-scanner
 
 
